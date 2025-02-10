@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+.search_wrapper {
+    padding: 80px 0;
+    background: #04AA6D;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_wrapper .search_wrap h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.search_wrapper .search_wrap .form_item {
+  width: 800px;
+  height: 50px;
+  border: 2px solid #000000;
+  position: relative;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+.search_wrapper .search_wrap .form_item input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: transparent;
+  padding-left: 60px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.search_wrapper .search_wrap .form_item button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+  z-index: 11;
+  border: transparent;
+  background: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+.search_wrapper .search_wrap #myUL {
+  width: 800px;
+  margin: 30px auto 0 auto;
+  list-style: none;
+}
+
+.search_wrapper .search_wrap #myUL li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    background: #e5e5e5;
+    border-bottom: 1px solid #ffffff;
+}
